@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testSuite.CucumberTestSuite" tests="0" skipped="0" failures="0" errors="0" timestamp="1970-01-01T00:00:00" hostname="RAJESH-PC" time="0.0">
+  <properties/>
+  <system-out><![CDATA[11:34:05.703 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\mraje\IdeaProjects\com.automationpractice.sample\serenity.properties 
+11:34:05.765 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\mraje\IdeaProjects\com.automationpractice.sample\serenity.properties 
+11:34:05.765 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\mraje\IdeaProjects\com.automationpractice.sample\serenity.properties 
+11:34:05.796 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+11:34:05.796 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://automationpractice.com/index.php
+11:34:05.796 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Rajesh Sample Application
+11:34:05.796 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=1000
+11:34:06.125 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/mraje/IdeaProjects/com.automationpractice.sample/src/test/resources/features/UserLogin.feature
+11:34:06.468 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\mraje\IdeaProjects\com.automationpractice.sample\serenity.properties 
+11:34:06.484 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\mraje\IdeaProjects\com.automationpractice.sample\serenity.properties 
+11:34:06.484 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - LOADING LOCAL PROPERTIES FROM C:\Users\mraje\IdeaProjects\com.automationpractice.sample\serenity.properties 
+11:34:06.484 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.driver=chrome
+11:34:06.484 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.base.url=http://automationpractice.com/index.php
+11:34:06.484 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - serenity.project.name=Rajesh Sample Application
+11:34:06.484 [Test worker] DEBUG net.thucydides.core.util.PropertiesFileLocalPreferences - webdriver.wait.for.timeout=1000
+11:34:06.500 [Test worker] INFO  - 
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Gitter: https://gitter.im/serenity-bdd/serenity-core 
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+-------------------------------------------------------------------------------------
+
+11:34:06.500 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@486a44fd
+11:34:06.515 [Test worker] INFO  - Test Suite Started: Login
+11:34:06.562 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/mraje/IdeaProjects/com.automationpractice.sample/src/test/resources/features/UserLogin.feature
+11:34:06.562 [Test worker] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@486a44fd
+11:34:06.562 [Test worker] INFO  - Test Suite Started: Login
+11:34:38.094 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:34:38.219 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reporting formats: [JSON, HTML]
+11:34:38.219 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@5100c143
+11:34:38.219 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome login:Successful login with valid credentials
+11:34:38.219 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@5100c143: Generating report for test outcome: login:Successful login with valid credentials
+11:34:38.219 [pool-1-thread-1] DEBUG net.thucydides.core.reports.json.JSONTestOutcomeReporter - Generating JSON report for Successful login with valid credentials to file C:\Users\mraje\IdeaProjects\com.automationpractice.sample\target\site\serenity\4041858f6f88c60976e5fee55331bd9635e4f283b2f2f1b9ddb6a188913dbb7c.json (using temp file C:\Users\mraje\IdeaProjects\com.automationpractice.sample\target\site\serenity\4041858f6f88c60976e5fee55331bd9635e4f283b2f2f1b9ddb6a188913dbb7c.json133cb4b8-e0e3-496a-9d38-d32b547afcca)
+11:34:38.255 [pool-1-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome login:Successful login with valid credentials done
+11:34:38.255 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+11:34:38.255 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 36 ms
+11:34:38.255 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Generating reports for 1 test outcomes using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18ac25e6
+11:34:38.255 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome login:Successful login with valid credentials
+11:34:38.255 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@18ac25e6: Generating report for test outcome: login:Successful login with valid credentials
+11:34:38.271 [pool-2-thread-1] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Added feature login
+11:34:38.386 [pool-2-thread-1] DEBUG serenity.reporting - Generating report in 4041858f6f88c60976e5fee55331bd9635e4f283b2f2f1b9ddb6a188913dbb7c_screenshots.html
+11:34:38.670 [pool-2-thread-1] DEBUG serenity.reporting - Generated report 4041858f6f88c60976e5fee55331bd9635e4f283b2f2f1b9ddb6a188913dbb7c_screenshots.html in 284 ms
+11:34:38.686 [pool-2-thread-1] DEBUG serenity.reporting - Generating report in 4041858f6f88c60976e5fee55331bd9635e4f283b2f2f1b9ddb6a188913dbb7c.html
+11:34:38.764 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:53486 : 1
+11:34:38.764 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Entry count for : http://localhost:62820 : 1
+11:34:38.764 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0xb1a67fa0, L:/127.0.0.1:53495 ! R:localhost/127.0.0.1:53486] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+11:34:38.764 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0xb1a67fa0, L:/127.0.0.1:53495 ! R:localhost/127.0.0.1:53486]
+11:34:38.764 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Adding Candidate expired Channel [id: 0x4198c373, L:/127.0.0.1:53485 ! R:localhost/127.0.0.1:62820] isIdleTimeoutExpired=false isRemotelyClosed=true isTtlExpired=false
+11:34:38.764 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closing Idle Channel [id: 0x4198c373, L:/127.0.0.1:53485 ! R:localhost/127.0.0.1:62820]
+11:34:38.764 [AsyncHttpClient-1-1] DEBUG org.asynchttpclient.netty.channel.DefaultChannelPool - Closed 2 connections out of 2 in 0 ms
+11:34:38.936 [pool-2-thread-1] DEBUG serenity.reporting - Generated report 4041858f6f88c60976e5fee55331bd9635e4f283b2f2f1b9ddb6a188913dbb7c.html in 250 ms
+11:34:38.936 [pool-2-thread-1] DEBUG net.thucydides.core.reports.ReportService - Processing test outcome login:Successful login with valid credentials done
+11:34:38.936 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Shutting down executor service
+11:34:38.936 [Test worker] DEBUG net.thucydides.core.reports.ReportService - Reports generated in: 681 ms
+11:34:39.002 [Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Cleanup test resources for URI file:///C:/Users/mraje/IdeaProjects/com.automationpractice.sample/src/test/resources/features/UserLogin.feature
+11:34:39.002 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+11:34:39.002 [Darkroom Processing Line] DEBUG net.serenitybdd.core.photography.DarkroomProcessingLine - Darkroom processing line shutting down
+11:34:39.002 [Test worker] DEBUG net.serenitybdd.core.photography.Darkroom - Closing darkroom
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
